@@ -254,6 +254,46 @@ export default function MenuPage() {
             </Button>
           </div>
         </section>
+        
+        {/* Wine Pairing Section */}
+<section id="wine-pairing" className="py-20 bg-background border-t border-border">
+  <div className="max-w-7xl mx-auto px-6">
+    <h2 className="font-serif text-4xl font-bold text-center mb-12">Wine Pairing Selection</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Example wines — you can expand this list */}
+      <Card className="hover:shadow-lg transition-shadow">
+        <CardContent className="p-6">
+          <h3 className="font-serif text-xl font-semibold mb-2">Chardonnay Reserve</h3>
+          <p className="text-muted-foreground mb-4">
+            A crisp and elegant Chardonnay, perfect with seafood and light starters.
+          </p>
+          <Badge variant="secondary" className="bg-accent text-accent-foreground">$28 / Glass</Badge>
+        </CardContent>
+      </Card>
+
+      <Card className="hover:shadow-lg transition-shadow">
+        <CardContent className="p-6">
+          <h3 className="font-serif text-xl font-semibold mb-2">Pinot Noir Vintage</h3>
+          <p className="text-muted-foreground mb-4">
+            Smooth and fruit-forward, pairs beautifully with duck, beef, or mushroom dishes.
+          </p>
+          <Badge variant="secondary" className="bg-accent text-accent-foreground">$34 / Glass</Badge>
+        </CardContent>
+      </Card>
+
+      <Card className="hover:shadow-lg transition-shadow">
+        <CardContent className="p-6">
+          <h3 className="font-serif text-xl font-semibold mb-2">Champagne Brut</h3>
+          <p className="text-muted-foreground mb-4">
+            Classic French Champagne, ideal for desserts or celebrations.
+          </p>
+          <Badge variant="secondary" className="bg-accent text-accent-foreground">$45 / Glass</Badge>
+        </CardContent>
+      </Card>
+    </div>
+  </div>
+</section>
+
       </main>
       <Footer />
     </div>
