@@ -12,9 +12,9 @@ const navigation = [
   { name: "About", href: "/about" },
   { name: "Reservations", href: "/reservations" },
   { name: "Gallery", href: "/gallery" },
-  { name: "Events", href: "/events" },
-  { name: "Press", href: "/press" },
-  { name: "Blog", href: "/blog" },
+  // { name: "Events", href: "/events" },
+  // { name: "Press", href: "/press" },
+  // { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ]
 
@@ -30,7 +30,7 @@ export function Header() {
           <div className="flex lg:flex-1">
             <Link href="/" className="p-1.5">
               <span className="font-serif text-2xl font-bold text-foreground">
-                Lumière
+                Maria Havens
               </span>
             </Link>
           </div>
@@ -62,7 +62,7 @@ export function Header() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90">
-              <Link href="/reservations">Reserve Table</Link>
+              <Link href="/reservations">Reservation</Link>
             </Button>
           </div>
         </nav>

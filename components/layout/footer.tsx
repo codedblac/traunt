@@ -59,10 +59,10 @@ export function Footer() {
         </div>
         <div className="mt-10 border-t border-border pt-10">
           <div className="text-center">
-            <p className="font-serif text-2xl font-bold text-foreground mb-4">Lumière</p>
+            <p className="font-serif text-2xl font-bold text-foreground mb-4">Maria Havens</p>
             <p className="text-sm text-muted-foreground mb-2">123 Fine Dining Street, Culinary District</p>
             <p className="text-sm text-muted-foreground mb-2">
-              Phone: (555) 123-4567 | Email: info@lumiererestaurant.com
+              Phone: (555) 123-4567 | Email: info@mariahavensrestaurant.com
             </p>
             <p className="text-xs leading-5 text-muted-foreground mt-8">
               &copy; 2024 Lumière Restaurant. All rights reserved.

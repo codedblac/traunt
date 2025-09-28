@@ -50,6 +50,7 @@ const galleryImages = [
   "/fine-dining-plated-dish-artistic-presentation.png",
   "/restaurant-bar-area-premium-cocktails.png",
   "/chef-preparing-dish-in-professional-kitchen.png",
+  "/'maria-hero.jpg'",
 ]
 
 export default function HomePage() {
@@ -61,11 +62,11 @@ export default function HomePage() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/luxury-restaurant-interior-elegant-dining-room-war.png')",
+              backgroundImage: "url('/maria-hero.jpg')",
             }}
           />
           <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
-            <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6">Welcome to Lumière</h1>
+            <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6">Welcome to Maria Havens</h1>
             <p className="text-xl md:text-2xl mb-8 font-light">
               Experience exceptional cuisine in an atmosphere of refined elegance
             </p>
