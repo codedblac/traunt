@@ -16,7 +16,7 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Lumière Restaurant - Fine Dining Experience",
+  title: "Maria Havens Restaurant - Fine Dining Experience",
   description:
     "Experience exceptional cuisine in an elegant atmosphere at Lumière Restaurant. Modern luxury dining with seasonal menus and impeccable service.",
   generator: "v0.app",
