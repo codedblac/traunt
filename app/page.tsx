@@ -11,19 +11,19 @@ const featuredDishes = [
     name: "Seared Duck Breast",
     description: "Cherry gastrique, roasted vegetables, potato gratin",
     price: "$42",
-    image: "/elegant-seared-duck-breast-fine-dining.png",
+    image: "/dish2.jpg",
   },
   {
     name: "Pan-Seared Halibut",
     description: "Lemon beurre blanc, seasonal vegetables, herb oil",
     price: "$38",
-    image: "/pan-seared-halibut-fine-dining-plating.png",
+    image: "/dish4.jpg",
   },
   {
     name: "Wagyu Beef Tenderloin",
     description: "Truffle jus, roasted bone marrow, seasonal greens",
     price: "$65",
-    image: "/wagyu-beef-tenderloin-truffle-fine-dining.png",
+    image: "/dish6.jpg",
   },
 ]
 
@@ -46,10 +46,14 @@ const testimonials = [
 ]
 
 const galleryImages = [
-  "/luxury-restaurant-interior-elegant-dining-room.png",
-  "/fine-dining-plated-dish-artistic-presentation.png",
-  "/restaurant-bar-area-premium-cocktails.png",
-  "/chef-preparing-dish-in-professional-kitchen.png",
+  "/env2.jpg",
+  "/click1.jpg",
+  "/counter2.jpg",
+  "/pizza1.jpg",
+  "/chef1.jpg",
+  "/grill1.jpg",
+  "/juice1.jpg",
+  "/juice2.jpg",
   "/'maria-hero.jpg'",
 ]
 
@@ -149,7 +153,7 @@ export default function HomePage() {
                 </Button>
               </div>
               <div className="relative">
-                <img src="/professional-chef-in-luxury-restaurant-kitchen.png" alt="Chef in kitchen" className="rounded-lg shadow-lg w-full" />
+                <img src="/chef1.jpg" alt="Chef in kitchen" className="rounded-lg shadow-lg w-full" />
               </div>
             </div>
           </div>

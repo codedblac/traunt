@@ -105,7 +105,7 @@ export default function AboutPage() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/luxury-restaurant-about-elegant-interior.png')",
+              backgroundImage: "url('/env3.jpg",
             }}
           />
           <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">

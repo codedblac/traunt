@@ -18,7 +18,7 @@ const menuItems = [
     description: "Fresh Blue Point oysters, spinach, herbs, Pernod cream",
     price: "$18",
     dietary: ["Seafood"],
-    image: "/oysters-rockefeller-fine-dining-appetizer.png",
+    image: "/dish13.jpg",
   },
   {
     category: "Starters",
@@ -26,7 +26,7 @@ const menuItems = [
     description: "House-made terrine, brioche toast, fig compote",
     price: "$24",
     dietary: [],
-    image: "/foie-gras-terrine-luxury-appetizer.png",
+    image: "/dish2.jpg",
   },
   {
     category: "Starters",
@@ -34,7 +34,7 @@ const menuItems = [
     description: "Creamy burrata, seasonal tomatoes, basil oil, aged balsamic",
     price: "$16",
     dietary: ["Vegetarian"],
-    image: "/burrata-heirloom-tomatoes-fine-dining.png",
+    image: "/dish3.jpg",
   },
   {
     category: "Mains",
@@ -42,7 +42,7 @@ const menuItems = [
     description: "8oz prime cut, truffle jus, roasted bone marrow, seasonal vegetables",
     price: "$65",
     dietary: [],
-    image: "/wagyu-beef-tenderloin-truffle-fine-dining.png",
+    image: "/dish4.jpg",
   },
   {
     category: "Mains",
@@ -50,7 +50,7 @@ const menuItems = [
     description: "Atlantic halibut, lemon beurre blanc, roasted vegetables, herb oil",
     price: "$38",
     dietary: ["Seafood"],
-    image: "/pan-seared-halibut-fine-dining-plating.png",
+    image: "/dish6.jpg",
   },
   {
     category: "Mains",
@@ -58,7 +58,7 @@ const menuItems = [
     description: "Slow-cooked duck leg, cherry gastrique, potato gratin, wilted greens",
     price: "$42",
     dietary: [],
-    image: "/elegant-seared-duck-breast-fine-dining.png",
+    image: "/dish5.jpg",
   },
   {
     category: "Mains",
@@ -66,7 +66,7 @@ const menuItems = [
     description: "Wild mushroom duxelles, puff pastry, red wine reduction, root vegetables",
     price: "$32",
     dietary: ["Vegetarian"],
-    image: "/mushroom-wellington-vegetarian-fine-dining.png",
+    image: "/dish7.jpg",
   },
   {
     category: "Desserts",
@@ -74,7 +74,7 @@ const menuItems = [
     description: "Dark chocolate soufflé, vanilla bean ice cream, gold leaf",
     price: "$14",
     dietary: ["Vegetarian"],
-    image: "/chocolate-souffle-luxury-dessert.png",
+    image: "/dish12.jpg",
   },
   {
     category: "Desserts",
@@ -82,7 +82,7 @@ const menuItems = [
     description: "Vanilla bean custard, caramelized sugar, fresh berries",
     price: "$12",
     dietary: ["Vegetarian"],
-    image: "/creme-brulee-fine-dining-dessert.png",
+    image: "/dish11.jpg",
   },
   {
     category: "Desserts",
@@ -90,7 +90,7 @@ const menuItems = [
     description: "Meyer lemon curd, almond crust, candied lemon, mint",
     price: "$13",
     dietary: ["Vegetarian"],
-    image: "/lemon-tart-elegant-dessert-plating.png",
+    image: "/dish6.jpg",
   },
   {
     category: "Drinks",
@@ -98,7 +98,7 @@ const menuItems = [
     description: "Curated wine pairing for your meal",
     price: "$25",
     dietary: [],
-    image: "/wine-selection-sommelier-fine-dining.png",
+    image: "/wine2.jpg",
   },
   {
     category: "Drinks",
@@ -106,7 +106,7 @@ const menuItems = [
     description: "House-crafted cocktail with premium spirits",
     price: "$16",
     dietary: [],
-    image: "/signature-cocktail-luxury-bar.png",
+    image: "/wine1.jpg",
   },
 ]
 
@@ -144,7 +144,7 @@ export default function MenuPage() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/luxury-restaurant-menu-elegant-table-setting.png')",
+              backgroundImage: "url('/dish2.jpg')",
             }}
           />
           <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">

@@ -10,26 +10,26 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const heroImages = [
-  "/luxury-restaurant-interior-elegant-dining-room.png",
-  "/restaurant-bar-area-premium-cocktails.png",
-  "/fine-dining-plated-dish-artistic-presentation.png",
-  "/professional-chef-in-luxury-restaurant-kitchen.png",
+  "/counter2.jpg",
+  "/chef1.jpg",
+  "/wine2.jpg",
+  "/pizza1.jpg",
 ];
 
 const interiorImages = [
-  "/luxury-restaurant-interior-elegant-dining-room.png",
-  "/restaurant-bar-area-premium-cocktails.png",
+  "/int10.jpg",
+  "/int16.jpg",
 ];
 
 const mealImages = [
-  "/wagyu-beef-tenderloin-truffle-fine-dining.png",
-  "/pan-seared-halibut-fine-dining-plating.png",
-  "/elegant-seared-duck-breast-fine-dining.png",
+  "/dish13.jpg",
+  "/dish2.jpg",
+  "/dish8.jpg",
 ];
 
 const chefImages = [
-  "/chef-preparing-dish-in-professional-kitchen.png",
-  "/professional-chef-in-luxury-restaurant-kitchen.png",
+  "/chef1.jpg",
+  "/chef2.jpg",
 ];
 
 export default function GalleryPage() {
@@ -67,7 +67,7 @@ export default function GalleryPage() {
                     transition={{ duration: 0.8 }}
                     className="text-5xl md:text-6xl font-serif font-bold text-white text-center drop-shadow-lg"
                   >
-                    Discover Lumière
+                    Discover Maria Havens
                   </motion.h1>
                 </div>
               </div>
