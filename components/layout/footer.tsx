@@ -62,7 +62,7 @@ export function Footer() {
             <p className="font-serif text-2xl font-bold text-foreground mb-4">Maria Havens</p>
             <p className="text-sm text-muted-foreground mb-2">123 Fine Dining Street, Culinary District</p>
             <p className="text-sm text-muted-foreground mb-2">
-              Phone: (555) 123-4567 | Email: info@mariahavensrestaurant.com
+              Phone: (555) 123-4567 | Email: info@mariahavens.com
             </p>
             <p className="text-xs leading-5 text-muted-foreground mt-8">
               &copy; 2025 Maria Havens Restaurant. All rights reserved.
