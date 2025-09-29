@@ -19,6 +19,7 @@ const heroImages = [
 // Interior section now has images + videos
 const interiorMedia = [
   { type: "image", src: "/int10.jpg" },
+  
   { type: "image", src: "/int16.jpg" },
   { type: "video", src: "/bnb-video.mp4" },
   { type: "video", src: "/gallery6.mp4" },
@@ -73,61 +74,41 @@ export default function GalleryPage() {
       </section>
 
       {/* Interior Section */}
-      <section className="py-20 max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-serif font-bold text-center mb-10">
-          Elegant Interiors
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {interiorMedia.map((item, idx) => (
-            <motion.div
-              key={idx}
-              whileHover={{ scale: 1.05 }}
-              className="rounded-lg shadow-lg cursor-pointer flex justify-center items-center"
-              onClick={() =>
-                item.type === "image" ? setSelectedImage(item.src) : null
-              }
-            >
-              {item.type === "image" ? (
-                <img
-                  src={item.src}
-                  alt={`Interior ${idx + 1}`}
-                  className="w-full h-[70%] object-cover rounded-lg"
-                />
-              ) : (
-                <video
-                  src={item.src}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  className="w-full h-[70%] object-cover rounded-lg"
-                />
-              )}
-            </motion.div>
-          ))}
-        </div>
-      </section>
+<section className="py-20 max-w-7xl mx-auto px-6">
+  <h2 className="text-4xl font-serif font-bold text-center mb-10">
+    Elegant Interiors
+  </h2>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {interiorMedia.map((item, idx) => (
+      <motion.div
+        key={idx}
+        whileHover={{ scale: 1.05 }}
+        className="rounded-lg shadow-lg cursor-pointer overflow-hidden"
+        onClick={() =>
+          item.type === "image" ? setSelectedImage(item.src) : null
+        }
+      >
+        {item.type === "image" ? (
+          <img
+            src={item.src}
+            alt={`Interior ${idx + 1}`}
+            className="w-full object-cover"
+          />
+        ) : (
+          <video
+            src={item.src}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full object-cover"
+          />
+        )}
+      </motion.div>
+    ))}
+  </div>
+</section>
 
-      {/* Meals Section */}
-      <section className="py-20 bg-muted">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl font-serif font-bold text-center mb-10">
-            Signature Dishes
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {mealImages.map((src, idx) => (
-              <motion.div
-                key={idx}
-                whileHover={{ scale: 1.05 }}
-                className="overflow-hidden rounded-lg shadow-lg cursor-pointer"
-                onClick={() => setSelectedImage(src)}
-              >
-                <img src={src} alt="" className="w-full h-full object-cover" />
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Chef Section */}
       <section className="py-20 max-w-7xl mx-auto px-6">
