@@ -65,7 +65,7 @@ export function Footer() {
               Phone: (555) 123-4567 | Email: info@mariahavensrestaurant.com
             </p>
             <p className="text-xs leading-5 text-muted-foreground mt-8">
-              &copy; 2024 Maria Havens Restaurant. All rights reserved.
+              &copy; 2025 Maria Havens Restaurant. All rights reserved.
             </p>
           </div>
         </div>

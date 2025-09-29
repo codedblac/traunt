@@ -8,7 +8,7 @@ const timeline = [
   {
     year: "2001",
     title: "The Beginning",
-    description: "Lumière opened its doors with a vision to create an extraordinary dining experience.",
+    description: "Maria Havens opened its doors with a vision to create an extraordinary dining experience.",
   },
   {
     year: "2005",
@@ -121,7 +121,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto text-center px-6">
             <h2 className="font-serif text-4xl font-bold text-foreground mb-8">Our Mission</h2>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              At Lumière, we believe that dining is more than just a meal—it's an experience that engages all the
+              At Maria Havens, we believe that dining is more than just a meal—it's an experience that engages all the
               senses. Our mission is to create unforgettable moments through exceptional cuisine, impeccable service,
               and an atmosphere that celebrates the art of fine dining.
             </p>

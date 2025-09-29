@@ -133,7 +133,7 @@ export default function HomePage() {
               <div>
                 <h2 className="font-serif text-4xl font-bold text-foreground mb-6">Our Story</h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  For over two decades, Lumière has been a beacon of culinary excellence, where traditional techniques
+                  Maria Havens has been a beacon of culinary excellence, where traditional techniques
                   meet innovative flavors. Our commitment to sourcing the finest ingredients and creating memorable
                   dining experiences has made us a destination for discerning food enthusiasts.
                 </p>
@@ -198,7 +198,7 @@ export default function HomePage() {
             <div className="text-center mb-16">
               <h2 className="font-serif text-4xl font-bold text-foreground mb-4">What Our Guests Say</h2>
               <p className="text-lg text-muted-foreground">
-                Discover why Lumière is the choice for exceptional dining experiences
+                Discover why Maria Havens is the choice for exceptional dining experiences
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -224,7 +224,7 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center px-6">
             <h2 className="font-serif text-4xl font-bold mb-6">Ready for an Unforgettable Experience?</h2>
             <p className="text-xl mb-8 opacity-90">
-              Reserve your table today and discover why Lumière is the pinnacle of fine dining
+              Reserve your table today and discover why Maria Haven is the pinnacle of fine dining
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

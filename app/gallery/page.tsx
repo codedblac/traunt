@@ -138,7 +138,7 @@ export default function GalleryPage() {
       {/* CTA */}
       <section className="py-20 bg-primary text-primary-foreground text-center">
         <h2 className="text-4xl font-serif font-bold mb-6">
-          Ready to Experience Lumière?
+          Ready to Experience Maria Havens?
         </h2>
         <p className="text-lg mb-8 opacity-90">
           Book your table today and immerse yourself in fine dining

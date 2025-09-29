@@ -126,7 +126,7 @@ export default function ContactPage() {
                   <h3 className="font-serif text-xl font-semibold mb-2">Email</h3>
                   <p className="text-muted-foreground">
                     <a href="mailto:info@lumiererestaurant.com" className="hover:text-accent transition-colors">
-                      info@lumiererestaurant.com
+                      info@mariahavens.com
                     </a>
                   </p>
                   <p className="text-sm text-muted-foreground mt-2">General Inquiries</p>
@@ -261,7 +261,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <p className="text-muted-foreground text-sm">
-                      Located in the heart of the Culinary District, Lumière is easily accessible by public
+                      Located in the heart of the Culinary District, Maria Havens is easily accessible by public
                       transportation. Valet parking is available for your convenience.
                     </p>
                   </CardContent>
