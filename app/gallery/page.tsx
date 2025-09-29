@@ -3,7 +3,7 @@
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Button } from "@/components/ui/button";
-import { Camera, Calendar } from "lucide-react";
+import { Calendar } from "lucide-react";
 import { useState, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { motion } from "framer-motion";
@@ -16,21 +16,17 @@ const heroImages = [
   "/pizza1.jpg",
 ];
 
-const interiorImages = [
-  "/int10.jpg",
-  "/int16.jpg",
+// Interior section now has images + videos
+const interiorMedia = [
+  { type: "image", src: "/int10.jpg" },
+  { type: "image", src: "/int16.jpg" },
+  { type: "video", src: "/bnb-video.mp4" },
+  { type: "video", src: "/gallery6.mp4" },
 ];
 
-const mealImages = [
-  "/dish13.jpg",
-  "/dish2.jpg",
-  "/dish8.jpg",
-];
+const mealImages = ["/dish13.jpg", "/dish2.jpg", "/dish8.jpg"];
 
-const chefImages = [
-  "/chef1.jpg",
-  "/chef2.jpg",
-];
+const chefImages = ["/chef1.jpg", "/chef2.jpg"];
 
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -82,14 +78,31 @@ export default function GalleryPage() {
           Elegant Interiors
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {interiorImages.map((src, idx) => (
+          {interiorMedia.map((item, idx) => (
             <motion.div
               key={idx}
               whileHover={{ scale: 1.05 }}
-              className="overflow-hidden rounded-lg shadow-lg cursor-pointer"
-              onClick={() => setSelectedImage(src)}
+              className="rounded-lg shadow-lg cursor-pointer flex justify-center items-center"
+              onClick={() =>
+                item.type === "image" ? setSelectedImage(item.src) : null
+              }
             >
-              <img src={src} alt="" className="w-full h-full object-cover" />
+              {item.type === "image" ? (
+                <img
+                  src={item.src}
+                  alt={`Interior ${idx + 1}`}
+                  className="w-full h-[70%] object-cover rounded-lg"
+                />
+              ) : (
+                <video
+                  src={item.src}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-[70%] object-cover rounded-lg"
+                />
+              )}
             </motion.div>
           ))}
         </div>

@@ -47,7 +47,7 @@ const testimonials = [
 
 const galleryImages = [
   "/env2.jpg",
-  "/click1.jpg",
+  "/click2.jpg",
   "/counter2.jpg",
   "/pizza1.jpg",
   "/chef1.jpg",
