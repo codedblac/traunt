@@ -98,11 +98,11 @@ export default function ContactPage() {
                   <MapPin className="h-8 w-8 text-accent mx-auto mb-4" />
                   <h3 className="font-serif text-xl font-semibold mb-2">Location</h3>
                   <p className="text-muted-foreground">
-                    123 Fine Dining Street
+                    Nyachwa, Kisii
                     <br />
                     Culinary District
                     <br />
-                    New York, NY 10001
+                    Kisii,  10001
                   </p>
                 </CardContent>
               </Card>
@@ -112,8 +112,12 @@ export default function ContactPage() {
                   <Phone className="h-8 w-8 text-accent mx-auto mb-4" />
                   <h3 className="font-serif text-xl font-semibold mb-2">Phone</h3>
                   <p className="text-muted-foreground">
-                    <a href="tel:+15551234567" className="hover:text-accent transition-colors">
-                      (555) 123-4567
+                    <a href="tel:+254790473611" className="hover:text-accent transition-colors">
+                      +254790473611
+                    </a>
+                    <br />
+                    <a href="tel:+254115717029" className="hover:text-accent transition-colors">
+                      +254115717029
                     </a>
                   </p>
                   <p className="text-sm text-muted-foreground mt-2">Reservations & Inquiries</p>
@@ -279,7 +283,7 @@ export default function ContactPage() {
                         variant="outline"
                         className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
                       >
-                        <a href="tel:+15551234567">
+                        <a href="tel:+254790473611" className="flex items-center justify-center">
                           <Phone className="mr-2 h-4 w-4" />
                           Call Now
                         </a>
@@ -289,7 +293,7 @@ export default function ContactPage() {
                         variant="outline"
                         className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
                       >
-                        <a href="https://wa.me/15551234567" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/+254790473611" target="_blank" rel="noopener noreferrer">
                           <MessageCircle className="mr-2 h-4 w-4" />
                           WhatsApp
                         </a>
@@ -299,7 +303,7 @@ export default function ContactPage() {
                         variant="outline"
                         className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent"
                       >
-                        <a href="mailto:info@lumiererestaurant.com">
+                        <a href="mailto:info@mariahavens.com">
                           <Mail className="mr-2 h-4 w-4" />
                           Email Us
                         </a>
