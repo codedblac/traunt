@@ -8,21 +8,21 @@ import { Star, Quote, ChefHat, Calendar, Camera } from "lucide-react"
 
 const featuredDishes = [
   {
-    name: "Seared Duck Breast",
-    description: "Cherry gastrique, roasted vegetables, potato gratin",
-    price: "$42",
+    name: "Dry-Fry chicken",
+    description: "1/4 ksh450, 1/2 ksh900, whole ksh1800",
+    price: "Ksh1800",
     image: "/dish2.jpg",
   },
   {
-    name: "Pan-Seared Halibut",
-    description: "Lemon beurre blanc, seasonal vegetables, herb oil",
-    price: "$38",
+    name: "Wet-Fry Chicken",
+    description: "1/4 ksh500, 1/2 ksh1000, whole ksh2000",
+    price: "Ksh1800",
     image: "/dish4.jpg",
   },
   {
-    name: "Wagyu Beef Tenderloin",
-    description: "Truffle jus, roasted bone marrow, seasonal greens",
-    price: "$65",
+    name: "Pan-Fry Chicken",
+    description: "1/4 450, 1/2 ksh900, whole ksh1800",
+    price: "Ksh1800",
     image: "/dish6.jpg",
   },
 ]

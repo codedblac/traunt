@@ -137,6 +137,7 @@ export default function AboutPage() {
         <section className="py-20 bg-muted">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
+              /*
               <h2 className="font-serif text-4xl font-bold text-foreground mb-4">Our Journey</h2>
               <p className="text-lg text-muted-foreground">From humble beginnings to culinary recognition</p>
             </div>

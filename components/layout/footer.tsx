@@ -18,7 +18,7 @@ const navigation = {
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/maria_havens_/",
       icon: Instagram,
     },
     {

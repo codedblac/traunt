@@ -253,23 +253,28 @@ export default function ContactPage() {
               {/* Map and Additional Info */}
               <div className="space-y-8">
                 <Card>
-                  <CardHeader>
-                    <CardTitle className="font-serif text-xl">Find Us</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="aspect-video bg-muted rounded-lg flex items-center justify-center mb-4">
-                      <div className="text-center">
-                        <MapPin className="h-12 w-12 text-accent mx-auto mb-2" />
-                        <p className="text-muted-foreground">Interactive Map</p>
-                        <p className="text-sm text-muted-foreground">123 Fine Dining Street, Culinary District</p>
-                      </div>
-                    </div>
-                    <p className="text-muted-foreground text-sm">
-                      Located in the heart of the Culinary District, Maria Havens is easily accessible by public
-                      transportation. Valet parking is available for your convenience.
-                    </p>
-                  </CardContent>
-                </Card>
+  <CardHeader>
+    <CardTitle className="font-serif text-xl">Find Us</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <div className="aspect-video rounded-lg overflow-hidden mb-4">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4442.025560208246!2d34.765224103054294!3d-0.6922467054413374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182b39004e0caae9%3A0xb5081898cc4b889b!2sMaria%20Havens%20Home%20%26%20Restaurant!5e0!3m2!1sen!2ske!4v1759327173207!5m2!1sen!2ske"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
+    <p className="text-muted-foreground text-sm">
+      Located in the heart of the Culinary District, Maria Havens is easily accessible by public
+      transportation. Valet parking is available for your convenience.
+    </p>
+  </CardContent>
+</Card>
+
 
                 <Card>
                   <CardHeader>

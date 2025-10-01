@@ -14,7 +14,7 @@ const dietaryFilters = ["All", "Vegetarian", "Vegan", "Gluten-Free", "Seafood"]
 const menuItems = [
   {
     category: "Starters",
-    name: "Oysters Rockefeller",
+    name: "French Fries with Sausage",
     description: "Fresh Blue Point oysters, spinach, herbs, Pernod cream",
     price: "$18",
     dietary: ["Seafood"],
@@ -22,7 +22,7 @@ const menuItems = [
   },
   {
     category: "Starters",
-    name: "Foie Gras Terrine",
+    name: "Pan-Fry Chicken",
     description: "House-made terrine, brioche toast, fig compote",
     price: "$24",
     dietary: [],
@@ -30,7 +30,7 @@ const menuItems = [
   },
   {
     category: "Starters",
-    name: "Burrata & Heirloom Tomatoes",
+    name: "Dry-Fry Beef",
     description: "Creamy burrata, seasonal tomatoes, basil oil, aged balsamic",
     price: "$16",
     dietary: ["Vegetarian"],
@@ -38,7 +38,7 @@ const menuItems = [
   },
   {
     category: "Mains",
-    name: "Wagyu Beef Tenderloin",
+    name: "Wet-Fry Chicken",
     description: "8oz prime cut, truffle jus, roasted bone marrow, seasonal vegetables",
     price: "$65",
     dietary: [],
@@ -46,7 +46,7 @@ const menuItems = [
   },
   {
     category: "Mains",
-    name: "Pan-Seared Halibut",
+    name: "Dry-Fry Chicken",
     description: "Atlantic halibut, lemon beurre blanc, roasted vegetables, herb oil",
     price: "$38",
     dietary: ["Seafood"],
@@ -54,7 +54,7 @@ const menuItems = [
   },
   {
     category: "Mains",
-    name: "Duck Confit",
+    name: "Dry-Fry Mutton",
     description: "Slow-cooked duck leg, cherry gastrique, potato gratin, wilted greens",
     price: "$42",
     dietary: [],
@@ -62,7 +62,7 @@ const menuItems = [
   },
   {
     category: "Mains",
-    name: "Mushroom Wellington",
+    name: "Pan-Fry Chicken",
     description: "Wild mushroom duxelles, puff pastry, red wine reduction, root vegetables",
     price: "$32",
     dietary: ["Vegetarian"],
@@ -70,7 +70,7 @@ const menuItems = [
   },
   {
     category: "Desserts",
-    name: "Chocolate Soufflé",
+    name: "Sausages",
     description: "Dark chocolate soufflé, vanilla bean ice cream, gold leaf",
     price: "$14",
     dietary: ["Vegetarian"],
@@ -78,7 +78,7 @@ const menuItems = [
   },
   {
     category: "Desserts",
-    name: "Crème Brûlée",
+    name: "French Fries with Sausage",
     description: "Vanilla bean custard, caramelized sugar, fresh berries",
     price: "$12",
     dietary: ["Vegetarian"],
@@ -86,7 +86,7 @@ const menuItems = [
   },
   {
     category: "Desserts",
-    name: "Lemon Tart",
+    name: "Pan-Fry Chicken",
     description: "Meyer lemon curd, almond crust, candied lemon, mint",
     price: "$13",
     dietary: ["Vegetarian"],
@@ -94,7 +94,7 @@ const menuItems = [
   },
   {
     category: "Drinks",
-    name: "Sommelier's Selection",
+    name: "Maria-Havens' Selection",
     description: "Curated wine pairing for your meal",
     price: "$25",
     dietary: [],
@@ -102,7 +102,7 @@ const menuItems = [
   },
   {
     category: "Drinks",
-    name: "Signature Cocktail",
+    name: "Martel",
     description: "House-crafted cocktail with premium spirits",
     price: "$16",
     dietary: [],
